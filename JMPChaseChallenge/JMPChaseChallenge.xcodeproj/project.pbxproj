@@ -9,13 +9,42 @@
 /* Begin PBXBuildFile section */
 		6CFD54BD293C5EA600D3B1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54BC293C5EA600D3B1D8 /* AppDelegate.swift */; };
 		6CFD54BF293C5EA600D3B1D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54BE293C5EA600D3B1D8 /* SceneDelegate.swift */; };
-		6CFD54C1293C5EA600D3B1D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54C0293C5EA600D3B1D8 /* ViewController.swift */; };
+		6CFD54C1293C5EA600D3B1D8 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54C0293C5EA600D3B1D8 /* AppViewController.swift */; };
 		6CFD54C4293C5EA600D3B1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD54C2293C5EA600D3B1D8 /* Main.storyboard */; };
 		6CFD54C6293C5EA600D3B1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD54C5293C5EA600D3B1D8 /* Assets.xcassets */; };
 		6CFD54C9293C5EA600D3B1D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD54C7293C5EA600D3B1D8 /* LaunchScreen.storyboard */; };
 		6CFD54D4293C5EA700D3B1D8 /* JMPChaseChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54D3293C5EA700D3B1D8 /* JMPChaseChallengeTests.swift */; };
 		6CFD54DE293C5EA700D3B1D8 /* JMPChaseChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54DD293C5EA700D3B1D8 /* JMPChaseChallengeUITests.swift */; };
 		6CFD54E0293C5EA700D3B1D8 /* JMPChaseChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54DF293C5EA700D3B1D8 /* JMPChaseChallengeUITestsLaunchTests.swift */; };
+		6CFD54F2293C67A000D3B1D8 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54F1293C67A000D3B1D8 /* TableViewDataSource.swift */; };
+		6CFD54F5293C67C800D3B1D8 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54F4293C67C800D3B1D8 /* BaseCoordinator.swift */; };
+		6CFD54F7293C67D200D3B1D8 /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54F6293C67D200D3B1D8 /* CoordinatorType.swift */; };
+		6CFD54FA293C681A00D3B1D8 /* NavigatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54F9293C681A00D3B1D8 /* NavigatorType.swift */; };
+		6CFD54FC293C682300D3B1D8 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54FB293C682300D3B1D8 /* Navigator.swift */; };
+		6CFD5500293C68C700D3B1D8 /* BaseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54FF293C68C700D3B1D8 /* BaseApiClient.swift */; };
+		6CFD5502293C68E100D3B1D8 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5501293C68E100D3B1D8 /* RequestProvider.swift */; };
+		6CFD5504293C68F500D3B1D8 /* ObjectDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5503293C68F500D3B1D8 /* ObjectDecoder.swift */; };
+		6CFD5507293C692500D3B1D8 /* SchoolApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5506293C692500D3B1D8 /* SchoolApi.swift */; };
+		6CFD5509293C693900D3B1D8 /* SchoolApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5508293C693900D3B1D8 /* SchoolApiClient.swift */; };
+		6CFD550C293C698600D3B1D8 /* SchoolListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD550B293C698600D3B1D8 /* SchoolListModel.swift */; };
+		6CFD550E293C699400D3B1D8 /* SchoolListDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD550D293C699400D3B1D8 /* SchoolListDetailModel.swift */; };
+		6CFD5511293C69CF00D3B1D8 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5510293C69CF00D3B1D8 /* UIConstants.swift */; };
+		6CFD5513293C69EA00D3B1D8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5512293C69EA00D3B1D8 /* BaseViewController.swift */; };
+		6CFD5515293C6A2000D3B1D8 /* SwiftUIBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5514293C6A2000D3B1D8 /* SwiftUIBorderedView.swift */; };
+		6CFD5518293C6A5400D3B1D8 /* UIViewController + Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5517293C6A5400D3B1D8 /* UIViewController + Presentable.swift */; };
+		6CFD551A293C6A7100D3B1D8 /* UITableView + DequeueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5519293C6A7100D3B1D8 /* UITableView + DequeueCell.swift */; };
+		6CFD551C293C6A9A00D3B1D8 /* View + Bordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD551B293C6A9A00D3B1D8 /* View + Bordered.swift */; };
+		6CFD551E293C6ACF00D3B1D8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD551D293C6ACF00D3B1D8 /* AppCoordinator.swift */; };
+		6CFD5520293C6ADA00D3B1D8 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD551F293C6ADA00D3B1D8 /* AppEnvironment.swift */; };
+		6CFD5524293C6B8F00D3B1D8 /* SchoolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5523293C6B8F00D3B1D8 /* SchoolListViewController.swift */; };
+		6CFD5526293C6BA100D3B1D8 /* SchoolListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5525293C6BA100D3B1D8 /* SchoolListCoordinator.swift */; };
+		6CFD5528293C6BB000D3B1D8 /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5527293C6BB000D3B1D8 /* SchoolListViewModel.swift */; };
+		6CFD552A293C6BBD00D3B1D8 /* SchoolListEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5529293C6BBD00D3B1D8 /* SchoolListEnvironment.swift */; };
+		6CFD552D293C6BE200D3B1D8 /* SchoolListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD552C293C6BE200D3B1D8 /* SchoolListTableViewCell.swift */; };
+		6CFD5530293C6C4800D3B1D8 /* SchoolListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD552F293C6C4800D3B1D8 /* SchoolListDetailView.swift */; };
+		6CFD5532293C6C5500D3B1D8 /* SchoolListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5531293C6C5500D3B1D8 /* SchoolListDetailViewModel.swift */; };
+		6CFD5534293C6C6400D3B1D8 /* SchoolListDetailEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5533293C6C6400D3B1D8 /* SchoolListDetailEnvironment.swift */; };
+		6CFD5536293C6C7200D3B1D8 /* SchoolListDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5535293C6C7200D3B1D8 /* SchoolListDetailCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +68,7 @@
 		6CFD54B9293C5EA600D3B1D8 /* JMPChaseChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMPChaseChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFD54BC293C5EA600D3B1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CFD54BE293C5EA600D3B1D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CFD54C0293C5EA600D3B1D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CFD54C0293C5EA600D3B1D8 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		6CFD54C3293C5EA600D3B1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CFD54C5293C5EA600D3B1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CFD54C8293C5EA600D3B1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +78,35 @@
 		6CFD54D9293C5EA700D3B1D8 /* JMPChaseChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMPChaseChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFD54DD293C5EA700D3B1D8 /* JMPChaseChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMPChaseChallengeUITests.swift; sourceTree = "<group>"; };
 		6CFD54DF293C5EA700D3B1D8 /* JMPChaseChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMPChaseChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CFD54F1293C67A000D3B1D8 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		6CFD54F4293C67C800D3B1D8 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		6CFD54F6293C67D200D3B1D8 /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		6CFD54F9293C681A00D3B1D8 /* NavigatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorType.swift; sourceTree = "<group>"; };
+		6CFD54FB293C682300D3B1D8 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		6CFD54FF293C68C700D3B1D8 /* BaseApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiClient.swift; sourceTree = "<group>"; };
+		6CFD5501293C68E100D3B1D8 /* RequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
+		6CFD5503293C68F500D3B1D8 /* ObjectDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDecoder.swift; sourceTree = "<group>"; };
+		6CFD5506293C692500D3B1D8 /* SchoolApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolApi.swift; sourceTree = "<group>"; };
+		6CFD5508293C693900D3B1D8 /* SchoolApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolApiClient.swift; sourceTree = "<group>"; };
+		6CFD550B293C698600D3B1D8 /* SchoolListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListModel.swift; sourceTree = "<group>"; };
+		6CFD550D293C699400D3B1D8 /* SchoolListDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailModel.swift; sourceTree = "<group>"; };
+		6CFD5510293C69CF00D3B1D8 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		6CFD5512293C69EA00D3B1D8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6CFD5514293C6A2000D3B1D8 /* SwiftUIBorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBorderedView.swift; sourceTree = "<group>"; };
+		6CFD5517293C6A5400D3B1D8 /* UIViewController + Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Presentable.swift"; sourceTree = "<group>"; };
+		6CFD5519293C6A7100D3B1D8 /* UITableView + DequeueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + DequeueCell.swift"; sourceTree = "<group>"; };
+		6CFD551B293C6A9A00D3B1D8 /* View + Bordered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Bordered.swift"; sourceTree = "<group>"; };
+		6CFD551D293C6ACF00D3B1D8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6CFD551F293C6ADA00D3B1D8 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		6CFD5523293C6B8F00D3B1D8 /* SchoolListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewController.swift; sourceTree = "<group>"; };
+		6CFD5525293C6BA100D3B1D8 /* SchoolListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListCoordinator.swift; sourceTree = "<group>"; };
+		6CFD5527293C6BB000D3B1D8 /* SchoolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		6CFD5529293C6BBD00D3B1D8 /* SchoolListEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListEnvironment.swift; sourceTree = "<group>"; };
+		6CFD552C293C6BE200D3B1D8 /* SchoolListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListTableViewCell.swift; sourceTree = "<group>"; };
+		6CFD552F293C6C4800D3B1D8 /* SchoolListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailView.swift; sourceTree = "<group>"; };
+		6CFD5531293C6C5500D3B1D8 /* SchoolListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailViewModel.swift; sourceTree = "<group>"; };
+		6CFD5533293C6C6400D3B1D8 /* SchoolListDetailEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailEnvironment.swift; sourceTree = "<group>"; };
+		6CFD5535293C6C7200D3B1D8 /* SchoolListDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +159,13 @@
 			children = (
 				6CFD54BC293C5EA600D3B1D8 /* AppDelegate.swift */,
 				6CFD54BE293C5EA600D3B1D8 /* SceneDelegate.swift */,
-				6CFD54C0293C5EA600D3B1D8 /* ViewController.swift */,
-				6CFD54C2293C5EA600D3B1D8 /* Main.storyboard */,
+				6CFD54EC293C671D00D3B1D8 /* Features */,
+				6CFD550A293C696F00D3B1D8 /* Models */,
+				6CFD54EF293C677800D3B1D8 /* Common */,
+				6CFD550F293C69B900D3B1D8 /* CommonUI */,
+				6CFD5516293C6A3C00D3B1D8 /* Extensions */,
+				6CFD54EE293C675E00D3B1D8 /* Storyboards */,
 				6CFD54C5293C5EA600D3B1D8 /* Assets.xcassets */,
-				6CFD54C7293C5EA600D3B1D8 /* LaunchScreen.storyboard */,
 				6CFD54CA293C5EA600D3B1D8 /* Info.plist */,
 			);
 			path = JMPChaseChallenge;
@@ -125,6 +186,168 @@
 				6CFD54DF293C5EA700D3B1D8 /* JMPChaseChallengeUITestsLaunchTests.swift */,
 			);
 			path = JMPChaseChallengeUITests;
+			sourceTree = "<group>";
+		};
+		6CFD54EC293C671D00D3B1D8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54ED293C672C00D3B1D8 /* App */,
+				6CFD5521293C6B5A00D3B1D8 /* Schools */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6CFD54ED293C672C00D3B1D8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54C0293C5EA600D3B1D8 /* AppViewController.swift */,
+				6CFD551D293C6ACF00D3B1D8 /* AppCoordinator.swift */,
+				6CFD551F293C6ADA00D3B1D8 /* AppEnvironment.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CFD54EE293C675E00D3B1D8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54C2293C5EA600D3B1D8 /* Main.storyboard */,
+				6CFD54C7293C5EA600D3B1D8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CFD54EF293C677800D3B1D8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54FD293C686C00D3B1D8 /* ApiClients */,
+				6CFD5505293C690C00D3B1D8 /* SchoolClient */,
+				6CFD54F3293C67B900D3B1D8 /* Coordinator */,
+				6CFD54F0293C678600D3B1D8 /* TableViewDataSource */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6CFD54F0293C678600D3B1D8 /* TableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54F1293C67A000D3B1D8 /* TableViewDataSource.swift */,
+			);
+			path = TableViewDataSource;
+			sourceTree = "<group>";
+		};
+		6CFD54F3293C67B900D3B1D8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54F4293C67C800D3B1D8 /* BaseCoordinator.swift */,
+				6CFD54F6293C67D200D3B1D8 /* CoordinatorType.swift */,
+				6CFD54F8293C67FF00D3B1D8 /* Navigator */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6CFD54F8293C67FF00D3B1D8 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54F9293C681A00D3B1D8 /* NavigatorType.swift */,
+				6CFD54FB293C682300D3B1D8 /* Navigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		6CFD54FD293C686C00D3B1D8 /* ApiClients */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54FE293C68B100D3B1D8 /* Base */,
+			);
+			path = ApiClients;
+			sourceTree = "<group>";
+		};
+		6CFD54FE293C68B100D3B1D8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD54FF293C68C700D3B1D8 /* BaseApiClient.swift */,
+				6CFD5501293C68E100D3B1D8 /* RequestProvider.swift */,
+				6CFD5503293C68F500D3B1D8 /* ObjectDecoder.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6CFD5505293C690C00D3B1D8 /* SchoolClient */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD5506293C692500D3B1D8 /* SchoolApi.swift */,
+				6CFD5508293C693900D3B1D8 /* SchoolApiClient.swift */,
+			);
+			path = SchoolClient;
+			sourceTree = "<group>";
+		};
+		6CFD550A293C696F00D3B1D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD550B293C698600D3B1D8 /* SchoolListModel.swift */,
+				6CFD550D293C699400D3B1D8 /* SchoolListDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6CFD550F293C69B900D3B1D8 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD5510293C69CF00D3B1D8 /* UIConstants.swift */,
+				6CFD5512293C69EA00D3B1D8 /* BaseViewController.swift */,
+				6CFD5514293C6A2000D3B1D8 /* SwiftUIBorderedView.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		6CFD5516293C6A3C00D3B1D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD5517293C6A5400D3B1D8 /* UIViewController + Presentable.swift */,
+				6CFD5519293C6A7100D3B1D8 /* UITableView + DequeueCell.swift */,
+				6CFD551B293C6A9A00D3B1D8 /* View + Bordered.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6CFD5521293C6B5A00D3B1D8 /* Schools */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD5522293C6B6D00D3B1D8 /* SchoolList */,
+				6CFD552E293C6C2F00D3B1D8 /* SchoolListDetail */,
+			);
+			path = Schools;
+			sourceTree = "<group>";
+		};
+		6CFD5522293C6B6D00D3B1D8 /* SchoolList */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD5523293C6B8F00D3B1D8 /* SchoolListViewController.swift */,
+				6CFD5525293C6BA100D3B1D8 /* SchoolListCoordinator.swift */,
+				6CFD5527293C6BB000D3B1D8 /* SchoolListViewModel.swift */,
+				6CFD5529293C6BBD00D3B1D8 /* SchoolListEnvironment.swift */,
+				6CFD552B293C6BC500D3B1D8 /* Views */,
+			);
+			path = SchoolList;
+			sourceTree = "<group>";
+		};
+		6CFD552B293C6BC500D3B1D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD552C293C6BE200D3B1D8 /* SchoolListTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CFD552E293C6C2F00D3B1D8 /* SchoolListDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD552F293C6C4800D3B1D8 /* SchoolListDetailView.swift */,
+				6CFD5531293C6C5500D3B1D8 /* SchoolListDetailViewModel.swift */,
+				6CFD5533293C6C6400D3B1D8 /* SchoolListDetailEnvironment.swift */,
+				6CFD5535293C6C7200D3B1D8 /* SchoolListDetailCoordinator.swift */,
+			);
+			path = SchoolListDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +481,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFD54C1293C5EA600D3B1D8 /* ViewController.swift in Sources */,
+				6CFD551E293C6ACF00D3B1D8 /* AppCoordinator.swift in Sources */,
+				6CFD54FA293C681A00D3B1D8 /* NavigatorType.swift in Sources */,
+				6CFD550C293C698600D3B1D8 /* SchoolListModel.swift in Sources */,
+				6CFD5520293C6ADA00D3B1D8 /* AppEnvironment.swift in Sources */,
+				6CFD552A293C6BBD00D3B1D8 /* SchoolListEnvironment.swift in Sources */,
+				6CFD5536293C6C7200D3B1D8 /* SchoolListDetailCoordinator.swift in Sources */,
+				6CFD5524293C6B8F00D3B1D8 /* SchoolListViewController.swift in Sources */,
+				6CFD54C1293C5EA600D3B1D8 /* AppViewController.swift in Sources */,
 				6CFD54BD293C5EA600D3B1D8 /* AppDelegate.swift in Sources */,
+				6CFD5504293C68F500D3B1D8 /* ObjectDecoder.swift in Sources */,
+				6CFD54F7293C67D200D3B1D8 /* CoordinatorType.swift in Sources */,
+				6CFD54F5293C67C800D3B1D8 /* BaseCoordinator.swift in Sources */,
+				6CFD5534293C6C6400D3B1D8 /* SchoolListDetailEnvironment.swift in Sources */,
+				6CFD552D293C6BE200D3B1D8 /* SchoolListTableViewCell.swift in Sources */,
+				6CFD5513293C69EA00D3B1D8 /* BaseViewController.swift in Sources */,
+				6CFD551A293C6A7100D3B1D8 /* UITableView + DequeueCell.swift in Sources */,
+				6CFD5511293C69CF00D3B1D8 /* UIConstants.swift in Sources */,
+				6CFD5515293C6A2000D3B1D8 /* SwiftUIBorderedView.swift in Sources */,
+				6CFD551C293C6A9A00D3B1D8 /* View + Bordered.swift in Sources */,
+				6CFD5530293C6C4800D3B1D8 /* SchoolListDetailView.swift in Sources */,
+				6CFD54FC293C682300D3B1D8 /* Navigator.swift in Sources */,
+				6CFD5532293C6C5500D3B1D8 /* SchoolListDetailViewModel.swift in Sources */,
+				6CFD5502293C68E100D3B1D8 /* RequestProvider.swift in Sources */,
+				6CFD5526293C6BA100D3B1D8 /* SchoolListCoordinator.swift in Sources */,
+				6CFD5507293C692500D3B1D8 /* SchoolApi.swift in Sources */,
+				6CFD550E293C699400D3B1D8 /* SchoolListDetailModel.swift in Sources */,
+				6CFD5509293C693900D3B1D8 /* SchoolApiClient.swift in Sources */,
+				6CFD54F2293C67A000D3B1D8 /* TableViewDataSource.swift in Sources */,
+				6CFD5528293C6BB000D3B1D8 /* SchoolListViewModel.swift in Sources */,
+				6CFD5500293C68C700D3B1D8 /* BaseApiClient.swift in Sources */,
 				6CFD54BF293C5EA600D3B1D8 /* SceneDelegate.swift in Sources */,
+				6CFD5518293C6A5400D3B1D8 /* UIViewController + Presentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
