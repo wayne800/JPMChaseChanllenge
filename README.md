@@ -5,5 +5,7 @@
 Using MVVM-C (coordinator) for the app architecture. Easy navigation controll and integration with SwiftUI views. 
 The Coordinator contains certain environments(DI purpose) and viewModels. Then create related ViewControllers and interact with other coordinators.
 Coordinators can share same navigator if the ViewControllers underneath would be in the same navigation stack. Otherwise, they can have new navigator.
+Using Combine for streaming status changes.
+Unit Tests included.
 
 This app supports iOS 13+. 
