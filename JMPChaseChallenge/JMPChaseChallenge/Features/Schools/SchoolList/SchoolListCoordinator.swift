@@ -51,7 +51,7 @@ final class SchoolListCoodinator: UICoordinator, SchoolListCoodinatorInput {
     }
     
     func coordinateToAlert(with info: String) {
-        let alert = UIAlertController(title: "Error Occurs",
+        let alert = UIAlertController(title: "Error Occurs. Pull Down to refresh.",
                                       message: info,
                                       preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Ok", style: .default)
