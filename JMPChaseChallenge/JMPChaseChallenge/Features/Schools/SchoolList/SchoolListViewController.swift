@@ -16,6 +16,7 @@ class SchoolListViewController: BaseViewController {
     
     // MARK: private properties
     private let tableView = UITableView()
+    private let refreshControl = UIRefreshControl()
     private var cancellables = Set<AnyCancellable>()
     private var dataSource: TableViewDataSource<SchoolListViewModel, SchoolListTableViewCell>?
     
@@ -34,6 +35,8 @@ class SchoolListViewController: BaseViewController {
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 60
         tableView.separatorInset = UIEdgeInsets(top: 0, left: UIConstants.mrginTiny, bottom: 0, right: UIConstants.mrginTiny)
+        tableView.refreshControl = refreshControl
+        refreshControl.addTarget(self, action: #selector(refreshFunction), for: .valueChanged)
         
         NSLayoutConstraint.activate([
             tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
@@ -41,6 +44,11 @@ class SchoolListViewController: BaseViewController {
             tableView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
         ])
+    }
+    
+    @objc
+    private func refreshFunction() {
+        viewModel?.inputs.fetchShools()
     }
     
     private func setupSubscriptions() {
@@ -52,6 +60,9 @@ class SchoolListViewController: BaseViewController {
         viewModel?.outputs.isLoadingData
             .sink(receiveValue: {[weak self] isLoading in
                 self?.shouldDisplayIndicator(display: isLoading)
+                if !isLoading {
+                    self?.refreshControl.endRefreshing()
+                }
             })
             .store(in: &cancellables)
         
