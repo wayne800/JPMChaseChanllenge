@@ -8,4 +8,6 @@ Coordinators can share same navigator if the ViewControllers underneath would be
 Using Combine for streaming status changes.
 Unit Tests included.
 
+The main code base is in develop branch.
+
 This app supports iOS 13+. 
