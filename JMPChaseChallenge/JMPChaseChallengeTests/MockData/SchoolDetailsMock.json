@@ -1,0 +1,27 @@
+[
+ {
+ "dbn": "02M260",
+ "school_name": "Clinton School Writers & Artists, M.S. 260",
+ "num_of_sat_test_takers": "29",
+ "sat_critical_reading_avg_score": "355",
+ "sat_math_avg_score": "404",
+ "sat_writing_avg_score": "363"
+ },
+ {
+ "dbn": "21K728",
+ "school_name": "Liberation Diploma Plus High School",
+ "num_of_sat_test_takers": "91",
+ "sat_critical_reading_avg_score": "383",
+ "sat_math_avg_score": "423",
+ "sat_writing_avg_score": "366"
+ },
+ {
+ "dbn": "08X282",
+ "school_name": "Women's Academy of Excellence",
+ "num_of_sat_test_takers": "70",
+ "sat_critical_reading_avg_score": "377",
+ "sat_math_avg_score": "402",
+ "sat_writing_avg_score": "370"
+ }
+ ]
+ 
