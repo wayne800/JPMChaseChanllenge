@@ -13,7 +13,7 @@
 		6CFD54C4293C5EA600D3B1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD54C2293C5EA600D3B1D8 /* Main.storyboard */; };
 		6CFD54C6293C5EA600D3B1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD54C5293C5EA600D3B1D8 /* Assets.xcassets */; };
 		6CFD54C9293C5EA600D3B1D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD54C7293C5EA600D3B1D8 /* LaunchScreen.storyboard */; };
-		6CFD54D4293C5EA700D3B1D8 /* JMPChaseChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54D3293C5EA700D3B1D8 /* JMPChaseChallengeTests.swift */; };
+		6CFD54D4293C5EA700D3B1D8 /* SchoolListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54D3293C5EA700D3B1D8 /* SchoolListViewModelTests.swift */; };
 		6CFD54DE293C5EA700D3B1D8 /* JMPChaseChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54DD293C5EA700D3B1D8 /* JMPChaseChallengeUITests.swift */; };
 		6CFD54E0293C5EA700D3B1D8 /* JMPChaseChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54DF293C5EA700D3B1D8 /* JMPChaseChallengeUITestsLaunchTests.swift */; };
 		6CFD54F2293C67A000D3B1D8 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD54F1293C67A000D3B1D8 /* TableViewDataSource.swift */; };
@@ -45,6 +45,10 @@
 		6CFD5532293C6C5500D3B1D8 /* SchoolListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5531293C6C5500D3B1D8 /* SchoolListDetailViewModel.swift */; };
 		6CFD5534293C6C6400D3B1D8 /* SchoolListDetailEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5533293C6C6400D3B1D8 /* SchoolListDetailEnvironment.swift */; };
 		6CFD5536293C6C7200D3B1D8 /* SchoolListDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5535293C6C7200D3B1D8 /* SchoolListDetailCoordinator.swift */; };
+		6CFD5541293C951300D3B1D8 /* SchoolApiClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5540293C951300D3B1D8 /* SchoolApiClientMock.swift */; };
+		6CFD5542293C957D00D3B1D8 /* SchoolsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD553E293C94C100D3B1D8 /* SchoolsMock.json */; };
+		6CFD5543293C958000D3B1D8 /* SchoolDetailsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CFD553F293C94E600D3B1D8 /* SchoolDetailsMock.json */; };
+		6CFD5545293C95BF00D3B1D8 /* SchoolListDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD5544293C95BF00D3B1D8 /* SchoolListDetailViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +78,7 @@
 		6CFD54C8293C5EA600D3B1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CFD54CA293C5EA600D3B1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CFD54CF293C5EA700D3B1D8 /* JMPChaseChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMPChaseChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CFD54D3293C5EA700D3B1D8 /* JMPChaseChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMPChaseChallengeTests.swift; sourceTree = "<group>"; };
+		6CFD54D3293C5EA700D3B1D8 /* SchoolListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModelTests.swift; sourceTree = "<group>"; };
 		6CFD54D9293C5EA700D3B1D8 /* JMPChaseChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMPChaseChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFD54DD293C5EA700D3B1D8 /* JMPChaseChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMPChaseChallengeUITests.swift; sourceTree = "<group>"; };
 		6CFD54DF293C5EA700D3B1D8 /* JMPChaseChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMPChaseChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -107,6 +111,10 @@
 		6CFD5531293C6C5500D3B1D8 /* SchoolListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailViewModel.swift; sourceTree = "<group>"; };
 		6CFD5533293C6C6400D3B1D8 /* SchoolListDetailEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailEnvironment.swift; sourceTree = "<group>"; };
 		6CFD5535293C6C7200D3B1D8 /* SchoolListDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailCoordinator.swift; sourceTree = "<group>"; };
+		6CFD553E293C94C100D3B1D8 /* SchoolsMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SchoolsMock.json; sourceTree = "<group>"; };
+		6CFD553F293C94E600D3B1D8 /* SchoolDetailsMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SchoolDetailsMock.json; sourceTree = "<group>"; };
+		6CFD5540293C951300D3B1D8 /* SchoolApiClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolApiClientMock.swift; sourceTree = "<group>"; };
+		6CFD5544293C95BF00D3B1D8 /* SchoolListDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListDetailViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +182,10 @@
 		6CFD54D2293C5EA700D3B1D8 /* JMPChaseChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				6CFD54D3293C5EA700D3B1D8 /* JMPChaseChallengeTests.swift */,
+				6CFD553D293C94A700D3B1D8 /* MockData */,
+				6CFD5540293C951300D3B1D8 /* SchoolApiClientMock.swift */,
+				6CFD54D3293C5EA700D3B1D8 /* SchoolListViewModelTests.swift */,
+				6CFD5544293C95BF00D3B1D8 /* SchoolListDetailViewModelTests.swift */,
 			);
 			path = JMPChaseChallengeTests;
 			sourceTree = "<group>";
@@ -350,6 +361,15 @@
 			path = SchoolListDetail;
 			sourceTree = "<group>";
 		};
+		6CFD553D293C94A700D3B1D8 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD553E293C94C100D3B1D8 /* SchoolsMock.json */,
+				6CFD553F293C94E600D3B1D8 /* SchoolDetailsMock.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -464,6 +484,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFD5543293C958000D3B1D8 /* SchoolDetailsMock.json in Resources */,
+				6CFD5542293C957D00D3B1D8 /* SchoolsMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +542,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFD54D4293C5EA700D3B1D8 /* JMPChaseChallengeTests.swift in Sources */,
+				6CFD54D4293C5EA700D3B1D8 /* SchoolListViewModelTests.swift in Sources */,
+				6CFD5541293C951300D3B1D8 /* SchoolApiClientMock.swift in Sources */,
+				6CFD5545293C95BF00D3B1D8 /* SchoolListDetailViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,8 +719,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -704,9 +729,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JMPChaseChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -723,8 +751,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -732,9 +761,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JMPChaseChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
